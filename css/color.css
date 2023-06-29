@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Playfair Display", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.backrgound {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 5));
+    background-image: url(../img/Só\ é\ possível\ se\ você\ acreditar.\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: rgb(12, 17, 22);
+    font-size: 16.5px;
+}
+
+.cabeçalho-link a:hover {
+    color: green;
+    transition: 0.3s all;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border: 3px solid green;
+    color: rgb(200, 255, 200);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button {
+    color: black;
+    background: transparent;
+    border: solid 1px rgb(7, 66, 15);
+    padding: 6px;
+    border-radius: 13px;
+    font-size: 13.7px;
+    width: 170px;
+    cursor: pointer;
+    margin-inline-end: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    background-color:rgb(7, 66, 15);
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.container-text {
+    padding: 40px 0 0 30px;
+}
+
+.text h1 {
+    color: rgb(12, 17, 22);
+    font-size: 55px;
+}
+
+.text h2 {
+    color:rgb(7, 48, 12);
+    margin-top: 25px;
+}
+
+.text span {
+    color: rgb(16, 3, 41);
+}
+
+.text p {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.redes-socias a {
+    color: rgb(8, 31, 8);
+    padding: 30px;
+}
+
+.button1 {
+    color: black;
+    background: transparent;
+    border: solid 1px rgb(7, 48, 12);
+    padding: 6px;
+    border-radius: 13px;
+    font-size: 18px;
+    width: 250px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    margin-top: 10px;
+}
+
+.button1:hover {
+    background-color: rgb(7, 48, 12);
+    color: aliceblue;
+    transition: 0.5s;
+}
