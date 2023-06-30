@@ -93,7 +93,10 @@ header {
 }
 
 .sobre1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    opacity: 78%;
+    border-radius: 10px;
     margin-top: 35px;
     box-sizing: border-box;
     margin-top: 40px;
