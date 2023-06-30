@@ -27,24 +27,24 @@ header {
     padding-top: 1rem;
 }
 
-.cbç-lk {
+.black {
     display: flex;
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
 }
 
-.cbç-lk a {
+.black a {
     color: rgb(12, 17, 22);
     font-size: 16.5px;
 }
 
-.cbç-lk a:hover {
+.black a:hover {
     color: rgb(255, 255, 255);
     transition: 0.3s all;
 }
 
-.lg {
+.azul {
     height: 50px;
     width: 50px;
     background: transparent;
@@ -54,11 +54,11 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 19px;
+    font-size: 13px;
     cursor: pointer;
 }
 
-.btt {
+.verde {
     color: black;
     background: transparent;
     border: solid 1px rgb(7, 66, 15);
@@ -71,22 +71,13 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.btt:hover {
+.verde:hover {
     background-color: rgb(7, 66, 15);
     color: aliceblue;
     transition: 0.5s;
 }
 
-#container {
-    width: 100%;
-    padding-left: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-#container #planejameto2 {
+#container #planejameto4 {
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -95,22 +86,14 @@ header {
     text-decoration: none
 }
 
-#planejamento2 {
-    width: 100%;
-    height: 225px;
-    margin-top: 40px;
+#planejamento4 {
+    width: 102%;
+    height: 342px;
+    margin-top: 150px;
 }
 
-.containercard {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+.sobre1 {
     color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.texto1 {
-    color: rgb(255, 255, 255);
     margin-top: 35px;
     box-sizing: border-box;
     margin-top: 40px;
@@ -121,22 +104,92 @@ header {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    font-weight: bold;
 }
 
-.texto1 span {
+.sobre1 span {
     font-weight: bold;
-    color:rgb(33, 19, 109);
+    color: rgb(170, 27, 27);
 }
 
-.centro {
-   background-color: rgb(163, 72, 11) ;
-    font-weight: bold;
-    color: rgb(250, 250, 250);
-    text-align: center;
+#rodape {
     margin-top: 10px;
-    height: 15vh;
-    width: 105%;
-    background-size: cover;
-    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
     opacity: 0.8;
+    width: 1350px;
+    display: flex;
+}
+
+#rodape {
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color:#000000;
+    color: #ffffff;
+}
+
+#rodape h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#rodape li, #rodape p {
+    color: #ffffff;
+    line-height: 1.75em;
+}
+
+#rodape a {
+    color: #F1E1F4;
+}
+
+#rodape button {
+    color: #ffffff;
+    background-color: #a76111;
+}
+
+#contato form {
+    padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+    #logo img {
+        width: 320px;
+    }
+    #menu {
+        background-color: r;
+        padding: 0;
+    }
+    #menu ul {
+        padding-top: 12px;
+        justify-content: space-between;
+    }
+
+    #menu ul li {
+        padding: 0 18px;
+    }
+    #principal h1 {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        line-height: 48px;
+    }
+    #principal p {
+        text-align: center;
+    }
+    #texto p {
+        text-align: left;
+    }
+    #rodape .col-lg- {
+        padding-bottom: 40px;
+    }
+    #contato h1 {
+        padding-top: 30px;
+    }
 }
